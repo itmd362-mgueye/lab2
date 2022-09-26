@@ -7,9 +7,30 @@
     <link rel="stylesheet" media="screen" href="css/reset.css" />
     <link rel="stylesheet" media="screen" href="css/screen.css">
 <body>
-    <ul>
-        <li
-    </ul>
-
+    <div class="container">
+        <form method="get" action="#null" autocomplete="on" >
+            <h2> Enter User Information </h2>
+            <div class="textinput">
+                <label>
+                    <input type="text" name="emailAdress" placeholder="Email" id="emailAdress">
+                </label>
+            </div>
+            <div class="textinput">
+                <label>
+                    <input type="text" name="phoneNumber" placeholder="Phone Number" id="phoneNumber"
+                </label>
+            </div>
+            <div class="dateOfBirth">
+                <label> Date of Birth
+                    <input type="date" name="dateOfBirth" id="dateOfBirth">
+                </label>
+            </div>
+            <div class="button">
+                <label>
+                    <button aria-label="submit">Submit</button>
+                </label>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
