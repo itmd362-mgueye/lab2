@@ -2,7 +2,30 @@ html,body {
     height: 100%;
     width: 100%;
     margin: 0;
+    text-align: center;
+    background: rgb(125, 190, 154);
 }
-#container {
-    width: 400px;
-    margin: 50px auto 0;
+div {
+    text-align: center;
+    margin: 15px;
+}
+form {
+    background-color: #f28585;
+    margin: auto;
+
+}
+button {
+    background-color: #77a747;
+    border: none;
+    color: ghostwhite;
+    text-decoration: none;
+    margin: 5px 3px;
+    height: 40px;
+    width: 240px;
+}
+@media screen
+    and (min-width: 480px){
+    label{
+        display: inline-block;
+    }
+}
